@@ -10,7 +10,7 @@
 *-Ex.R
 # Output files from R CMD build
 /*.tar.gz
-/.Rproj
+*.Rproj
 # Output files from R CMD check
 /*.Rcheck/
 # RStudio files
