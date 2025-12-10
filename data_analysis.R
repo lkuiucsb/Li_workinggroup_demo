@@ -20,3 +20,15 @@ boxplot(mtcars$mpg ~ mtcars$cyl,
         ylab = "Miles Per Gallon (MPG)",
         col = c("blue", "black", "red"))
 
+##############This is for scatter plot analysis
+#scatter plot of mpg vs wt
+plot(mtcars$wt, mtcars$mpg,
+     main = "Scatter Plot of MPG vs Weight",
+     xlab = "Weight (1000 lbs)",
+     ylab = "Miles Per Gallon (MPG)",
+     pch = 19)
+## add regression line
+model <- lm(mpg ~ wt, data = mtcars)
+abline(model, col = "red", lwd = 2)
+##############
+
