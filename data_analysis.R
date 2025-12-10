@@ -18,6 +18,6 @@ boxplot(mtcars$mpg ~ mtcars$cyl,
         main = "Boxplot of MPG by Cylinder Count",
         xlab = "Number of Cylinders",
         ylab = "This axis is Miles Per Gallon",
-        col = c("blue", "yellow", "orange"))
+        col = c("green", "yellow", "orange"))
 
 #testing
