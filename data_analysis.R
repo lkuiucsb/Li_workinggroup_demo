@@ -10,7 +10,7 @@ head(mtcars)
 summary(mtcars)
 
 #anova to see if there is a significant difference in mpg based on the number of cylinders
-anova_result <- lm(mpg ~ as.factor(cyl), data = mtcars)
+anova_result1 <- lm(mpg ~ as.factor(cyl), data = mtcars)
 summary(anova_result)
 
 #plot the boxplot for mpg and cyl
