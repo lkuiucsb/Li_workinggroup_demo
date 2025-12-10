@@ -17,7 +17,7 @@ summary(anova_result)
 boxplot(mtcars$mpg ~ mtcars$cyl,
         main = "Boxplot of MPG by Cylinder Count",
         xlab = "Number of Cylinders",
-        ylab = "Miles Per Gallon (MPG)",
+        ylab = "This axis is Miles Per Gallon",
         col = c("blue", "green", "pink"))
 
 #testing
