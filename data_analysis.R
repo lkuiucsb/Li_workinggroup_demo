@@ -4,7 +4,7 @@
 data("mtcars")
 
 # view the structure of the dataset
-str(mtcars)
+mtcars[1,]
 
 # summary statistics of the dataset
 summary(mtcars)
