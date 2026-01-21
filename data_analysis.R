@@ -7,7 +7,7 @@ data("mtcars")
 head(mtcars)
 
 # summary statistics of the dataset
-summary(mtcars)
+summary(mtcars) #Provides the summary statistics of mtcars
 
 #anova to see if there is a significant difference in mpg based on the number of cylinders
 anova_result1 <- lm(mpg ~ as.factor(cyl), data = mtcars)
@@ -17,7 +17,7 @@ summary(anova_result)
 boxplot(mtcars$mpg ~ mtcars$cyl,
         main = "Boxplot of MPG by Cylinder Count",
         xlab = "Number of Cylinders",
-        ylab = "Miles Per Gallon (MPG)",
-        col = c("blue", "green", "pink"))
+        ylab = "This axis is Miles Per Gallon",
+        col = c("black", "yellow", "pink")) # LI's edit
 
 #testing
